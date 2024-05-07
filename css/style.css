@@ -1,0 +1,287 @@
+* {
+    /* outline: 1px solid tomato; */
+}
+
+.header {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.inner {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.tit {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.inner h1 {
+    width: 100px;
+}
+
+.header .gnb ul {
+    display: flex;
+    gap: 40px;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    color: #333;
+}
+
+.header .inner {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    align-items: center;
+    height: 80px;
+}
+
+.header .inner .sub {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 11px;
+    border: 2px solid #0088cc;
+    border-radius: 6px;
+    width: 140px;
+    height: 48px;
+    line-height: 16px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0088cc;
+
+}
+
+
+
+
+.main-visual {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-visual .main01 {
+    position: relative;
+}
+
+.main-visual .main02 {
+    position: relative;
+}
+
+.main-visual .main03 {
+    position: relative;
+}
+
+.main-visual figure strong {
+    position: absolute;
+
+    bottom: 8%;
+    left: 5%;
+
+    font-size: 20px;
+    color: #fff;
+}
+
+.main-visual figure p {
+    position: absolute;
+
+    bottom: 14%;
+    left: 5%;
+
+    color: #ffffffd5;
+}
+
+
+
+
+
+.main-content {
+    position: relative;
+    padding: 80px 0;
+
+    border-bottom: 1px solid #eeeeee;
+}
+
+.main-content .tit {
+    margin: 0 auto 40px auto;
+
+}
+
+.main-content .tit strong {
+    display: block;
+    margin: 0 0 12px 0;
+
+    font-weight: 4 00;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.main-content .tit p {
+    display: block;
+    margin: 0 0 12px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.main-content .inner .itm strong {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    padding: 10px;
+
+    font-size: 12px;
+    color: #fff;
+    background: #0088cc;
+}
+
+.main-content .swiper-scrollbar {
+    max-width: 50px;
+
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    background: transparent;
+}
+
+.main-content .swiper-scrollbar .swiper-scrollbar-drag {
+    background: #0088cc;
+}
+
+
+
+.main-banner {
+    padding: 80px 0;
+
+    border-bottom: 1px solid #eeeeee;
+}
+
+.main-banner .inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-banner .inner .sub {
+    width: 600px;
+}
+
+.main-banner .inner strong {
+    display: block;
+    font-size: 28px;
+    margin: 100px 0 40px 0;
+}
+
+.main-banner .inner p {
+    display: block;
+    line-height: 28px;
+    font-size: 20px;
+    margin: 0 0 16px 0;
+}
+
+.main-banner .inner .desc {
+    margin: 0 0 40px 0;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.main-banner .inner a {
+    padding: 10px 10px;
+    width: 44px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    background: #000000;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+
+
+.main-product {
+    position: relative;
+    padding: 80px 0;
+
+    border-bottom: 1px solid #eeeeee;
+}
+
+.main-product .tit {
+    margin: 0 auto 40px auto;
+}
+
+.main-product .tit h2 {
+    display: block;
+    margin: 0 0 12px 0;
+
+    font-weight: 4 00;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.main-product .tit strong {
+    display: block;
+    margin: 0 0 12px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.main-product .inner figure strong {
+    display: block;
+    margin: 12px 0;
+}
+
+.main-product .inner .pro figure .desc {
+    position: absolute;
+
+    margin: 0;
+    padding: 10px;
+    bottom: 25%;
+    left: 5%;
+    font-size: 12px;
+    color: #fff;
+    background: #0088cc;
+}
+
+.main-product .inner .pro figure .desc>a {
+    margin: 0;
+}
+
+.main-product .inner figure p {
+    display: block;
+    margin: 0 0 12px 0;
+
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.main-product .inner figure a {
+    display: block;
+    margin: 0 0 12px 0;
+
+    font-size: 12px;
+}
+
+.main-product .swiper-pagination {
+    bottom: 8%;
+}
+
+
+
+
+
+footer {
+    padding: 80px 0;
+
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    background: #eeeeee
+}
